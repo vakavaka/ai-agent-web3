@@ -1,5 +1,6 @@
 import axios from 'axios';
 import Decimal from 'decimal.js';
+import { CONFIG } from './config';
 
 export class PriceFetcher {
     private prices: Decimal[] = [];
